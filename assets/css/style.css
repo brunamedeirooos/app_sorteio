@@ -1,0 +1,167 @@
+/*ZERANDO AS MARGENS*/
+
+body,header,h1,h2,main,section,p,div,input,textarea,button,label,footer,hr{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    
+    background-color: #ece5e5;
+   
+   
+}
+
+
+
+header{
+
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    padding: 50px;
+    text-align: center;
+
+
+}
+
+header h1{
+    color: #fff;
+}
+
+
+.app{
+
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 500px;
+
+
+}
+
+section{
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #808080 ;
+    padding: 30px;
+    width: 600px;
+    color: #3a3434;
+    text-align: center;
+    overflow: hidden;
+    position:relative;
+
+}
+
+section h2{
+    font-weight: 500;
+    font-size: 40px;
+   
+}
+
+section p{
+    margin: 10px 0;
+    font-size: 18px;
+    
+}
+
+.text-left{
+    text-align: left;
+
+}
+
+
+section label{
+
+    display: none;
+}
+
+section textarea{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 150px;
+    min-height: 150px;
+    
+
+
+}
+    
+
+section button{
+    font-size: 15px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    color:#fff;
+    border: none;
+    padding: 15px;
+    margin-top: 10px; /* margem para baixo*/
+    cursor:pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover{
+    background-image: linear-gradient(to top, #d03030 0%, #330867 100%);
+    transition:0.4s;
+}
+
+footer{
+
+   height: 150px;
+   background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  
+
+   /*caso querira uma imagem - background-image: url("")*/
+}
+
+.resultado{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 27, 29, 0.89);
+    transition: 0.5s ;
+
+
+}
+
+.resultado.mostrarResultado{
+    left: 0;
+    transition: 0.5s ;
+}
+
+
+
+.resultado span{
+
+    float:right ;
+    margin: 20px;
+    color: #fff;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: solid #fff 2px;
+    border-radius: 100%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+}
+
+.resultado p{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

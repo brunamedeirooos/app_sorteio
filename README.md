@@ -1,5 +1,7 @@
 # APP Sorteio - Desenvolvido através de Vídeo Aulas 
 
+[Acesse a página aqui](https://sortearnomes.netlify.app/)
+
 Projeto desenvolvido no estudo com a Instituição Kenzie.
 A idéia é exercitar os principios básicos com HTML, CSS e JAVASCRIPT. O projeto se refere a um app de sorteio através dos nomes digitados.
 
